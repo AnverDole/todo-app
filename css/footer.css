@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid  rgba(185, 185, 185, 0.151);
+    padding: 20px 200px;
+    background-color: white;
+}
+.footer .copyright-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: rgb(42, 61, 102);
+}
+
+@media only screen and (max-width: 780px) {
+    .footer{
+        padding: 20px 100px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .footer{
+        padding: 20px 20px;
+    }
+}

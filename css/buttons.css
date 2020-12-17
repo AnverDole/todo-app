@@ -1,0 +1,52 @@
+.custom-button{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .25s;
+    justify-content: center;
+    text-decoration: none;
+}
+.custom-button i:first-child{
+    margin-right: 5px;
+}
+.custom-button i:last-child{
+    margin-left: 5px;
+}
+
+
+/* ------------------------------------------------ */
+
+
+.custom-button.normal-button{
+    background-color: rgb(93, 84, 164);
+    color: white;
+}
+
+.custom-button.normal-button:hover{
+    background-color: rgb(47, 36, 128);
+}
+
+
+/* ------------------------------------------------ */
+
+.custom-button.danger-button{
+    background-color:rgb(239, 61, 61);
+    color: white;
+}
+.custom-button.danger-button:hover{
+    background-color: rgb(184, 16, 16);
+}
+
+/* ------------------------------------------------ */
+.custom-button.inverted-normal-button{
+    background-color: white;
+    color: rgb(47, 36, 128);
+    border: 1px solid  rgb(47, 36, 128);
+}
+.custom-button.inverted-normal-button:hover{
+    background-color:rgb(47, 36, 128);
+    color: white;
+}

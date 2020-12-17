@@ -1,0 +1,54 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: 80px auto 50px;
+    height: 100vh;
+}
+
+body .container{
+    background-color: rgb(252, 252, 252);
+}
+
+
+/* start of input field styles */
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input-box label{
+    margin-bottom: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: rgb(157, 101, 201);
+}
+.input-box input{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(157, 101, 201);
+    border: 1px solid  rgba(185, 185, 185, 0.151);
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+.input-box input::-webkit-input-placeholder{
+    color: rgba(158, 101, 201, 0.63);
+}
+.input-box input::-ms-input-placeholder{
+    color: rgba(158, 101, 201, 0.63);
+}
+.input-box input::placeholder{
+    color: rgba(158, 101, 201, 0.63);
+}
+form .input-box textarea{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(157, 101, 201);
+    border: 1px solid  rgba(185, 185, 185, 0.151);
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+form .input-box textarea::placeholder{
+    color: rgba(158, 101, 201, 0.63);
+}
+/* end of input field styles */
